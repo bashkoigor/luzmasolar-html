@@ -134,6 +134,35 @@ footer ul li:not(:last-child) { margin-bottom: 10px; }
 .divider-wrapper span {display: inline-block; vertical-align: middle;}
 .divider-wrapper .outer-line {width: 40%; border-bottom: 1px solid #FF5500;}
 
+.nuestro-equipo .middle-block .title {color: #ff5500;}
+.nuestro-equipo .text-container {
+    border-radius: 10px 10px 10px 50px;
+    border: 2px solid #0E3A5C;
+    padding: 20px;
+    background: #f3f3f3;
+}
+.nuestro-equipo .title-container {
+    background: #0E3A5C;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.nuestro-equipo .middle-block img {border-radius: 0;}
+.nuestro-equipo .middle-block .team .card {border: 0; box-shadow: 0 0 8px rgb(0 0 0 / 20%);}
+.nuestro-equipo .middle-block .team .card-title {color: #06365b; font-size: 22px;}
+.nuestro-equipo .middle-block .team .position {color: #374d5b; font-size: 17px;}
+.nuestro-equipo .middle-block .team .description {color: #6b6b6b; font-size: 19px;}
+.team .carousel__slide {
+    width: 25%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .team .carousel__slide {
+        width: 100%;
+    }
+}
 @media (max-width: 576px) {
     .middle-block .text-wrapper {padding: 50px 0 20px; text-align: center;}
     .bottom-block {height: 590px;}
