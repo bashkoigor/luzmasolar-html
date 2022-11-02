@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5177f8d642.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+</head>
+<body>
+<header>
+    <div class="header py-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-4 d-block d-lg-none mobile">
+                    <i aria-hidden="true" class="fas fa-bars" data-bs-toggle="offcanvas"
+                       data-bs-target="#offcanvasMenu"></i>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="https://luzmasolar.com/">
+                        <img class="img-fluid" src="img/logo.png">
+                    </a>
+                </div>
+                <div class="col-lg-10 d-none d-lg-block">
+                    <ul class="nav nav-pills justify-content-end">
+                        <li><a href="#">INICIO</a></li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">NOSOTROS</a>
+                            <ul class="dropdown-menu shadow py-3" aria-labelledby="navbarDropdown">
+                                <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                                <li><a href="#">Nuestro equipo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Te interesa saber…</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">contacto</a></li>
+                        <li><i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas"
+                               data-bs-target="#offcanvasSearch"></i></li>
+                    </ul>
+                </div>
+                <div class="col-4 d-block d-lg-none d-flex justify-content-end mobile">
+                    <i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas"
+                       data-bs-target="#offcanvasSearch"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top mobile-menu" tabindex="-1" id="offcanvasMenu"
+         aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="title" id="offcanvasMenuLabel">Menú</h5>
+            <i class="fa-solid fa-xmark close" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionRight">
+                <a href="" class="single">Inicio</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseRight1" aria-expanded="false" aria-controls="collapseRight1">
+                            Nosotros
+                        </button>
+                    </h2>
+                    <div id="collapseRight1" class="accordion-collapse collapse" aria-labelledby="collapseRight1"
+                         data-bs-parent="#accordionRight" style="">
+                        <div class="accordion-body">
+                            <ul>
+                                <li class="item">
+                                    <a href="">¿Quiénes somos?</a>
+                                </li>
+                                <li class="item">
+                                    <a href="">Nuestro equipo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="single">Te interesa saber…</a>
+                <a href="" class="single">Productos</a>
+                <a href="" class="single">Blog</a>
+                <a href="" class="single">contacto</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasSearchLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasSearchLabel">Buscar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="container">
+            <div class="offcanvas-body">
+                <form class="row" method="get" action="/search">
+                    <div class="input-group mb-3">
+                        <input type="text" name="search" class="form-control" placeholder="Ingrese su solicitud">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-search">Encontrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="main nuestro-equipo">
+    <div class="top-block">
+        <div class="block-shape block-shape-bottom" data-negative="false">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="block-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 text-center">
+                    <div class="text-wrapper mt-0 mt-lg-5">
+                        <h1 class="orange">TE INTERESA SABER...</h1>
+                        <h2 class="mt-4">Información útil para aquellos profesionales que han decidido entrar en el
+                            mundo de las energías renovables y el autoconsumo</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-block mt-0">
+        <div class="container">
+            <div class="text-block my-5">
+                <h1 class="mb-4">¿QUÉ ES EL AUTOCONSUMO ELÉCTRICO?</h1>
+                <p>El autoconsumo consiste en realizar un consumo final de bienes y servicios por el mismo agente
+                    productor.</p>
+                <p>El autoconsumo eléctrico es una novedosa tecnología, posible gracias a la existencia de las energías
+                    renovables y los avances tecnológicos y científicos.</p>
+                <p>En los últimos años, la instalación de tecnologías como paneles fotovoltaicos, ha experimentado un
+                    gran auge, dada la facilidad que encuentra el público para realizar los trámites administrativos
+                    pertinentes y precios cada vez más asequibles.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-block block">
+        <div class="block-shape block-shape-top" data-negative="false">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="block-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="row pt-5">
+
+                <div class="col-12 col-md-6">
+                    <div class="text-wrapper top-indent-a">
+                        <h1 class="orange">¿QUÉ ES EL AUTOCONSUMO FOTOVOLTAICO?</h1>
+                        <p class="py-4">Básicamente, se trata de transformar la energía del sol en energía eléctrica,
+                            mediante la utilización de paneles fotovoltaicos.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="image-wrapper">
+                        <img src="img/panel-solar-fotovoltaico.png" alt="" class="img-fluid img-style">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="my-5 blue">PREGUNTAS FRECUENTES SOBRE AUTOCONSUMO</h1>
+
+        <div class="accordion faqs mb-5" id="accordionFaqs">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        ¿En qué consiste una instalación fotovoltaica?
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                     data-bs-parent="#accordionFaqs" style="">
+                    <div class="accordion-body">
+                        <p>Toda instalación consta de 3 “piezas clave”:</p>
+                        <ul>
+                            <li>Paneles</li>
+                            <li>Inversor</li>
+                            <li>Estructura</li>
+                        </ul>
+                        <p>
+                            En Luzma Solar, trabajamos y recomendamos los paneles o módulos fotovoltaicos
+                            monocristalinos. Estos ofrecen mayor rendimiento y eficiencia que, por ejemplo, los
+                            policristalinos. Son también la opción óptima cuando se trata de instalar en residenciales.
+                        </p>
+                        <p>
+                            Otra de las piezas fundamentales del autoconsumo fotovoltaico son los inversores. Estos
+                            aparatos son los encargados de transformar la corriente continua en corriente alterna,
+                            permitiendo que la energía eléctrica producida por los paneles pueda ser utilizada para
+                            consumo. Pueden ser de dos tipos: Monofásicos y trifásicos.
+                        </p>
+                        <p>
+                            La instalación de los módulos requiere de una estructura. Existen dos opciones posibles: una
+                            estructura coplanar o una estructura elevada con triángulos. En el último caso, la
+                            inclinación dependerá de diversos factores, pudiendo variar según el tipo de instalación y
+                            las preferencias del cliente.
+                        </p>
+                        <p>
+                            Existen otros elementos como los meters, optimizadores, baterías, etc. Pero sin las “piezas
+                            clave” la instalación no podría funcionar del sol en energía eléctrica, mediante la
+                            utilización de paneles fotovoltaicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        ¿Cuál es el procedimiento de acceso a la modalidad de autoconsumo?
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                     data-bs-parent="#accordionFaqs">
+                    <div class="accordion-body">
+                        <p>
+                            La siguiente información ha sido obtenida del Ministerio para la Transición Ecológica y el
+                            Reto Demográfico: energia.gob.es En relación con el acceso y conexión a la red, el artículo
+                            7 del Real Decreto 244/2019, de 5 de abril recoge las excepciones y simplificaciones
+                            previstas en el Real Decreto-ley 15/2018, de 5 de octubre. Por tanto, están exentas de
+                            obtener permisos de acceso y conexión para las instalaciones de generación:
+                        </p>
+                        <ul>
+                            <li>Todas aquellas instalaciones de autoconsumo acogidas a las modalidades de suministro con
+                                autoconsumo sin excedentes.
+                            </li>
+                            <li>Aquellas instalaciones de producción para autoconsumo acogidas a las modalidades de
+                                autoconsumo con excedentes y con una potencia de generación igual o inferior a 15 kW que
+                                se ubiquen en suelo urbanizado que cuente con las dotaciones y servicios requeridos por
+                                la legislación urbanística.
+                            </li>
+                        </ul>
+                        <p>
+                            El resto de las instalaciones de autoconsumo deberán ajustarse al procedimiento de conexión
+                            y acceso a las redes regulado en el Real Decreto 1699/2011, de 18 de noviembre, o en el Real
+                            Decreto 1955/2000, de 1 de diciembre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        ¿Qué se puede hacer con la energía excedentaria?
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                     data-bs-parent="#accordionFaqs">
+                    <div class="accordion-body">
+                        <p>La energía excedentaria es, dicho en otras palabras, la energía que se genera pero que no se
+                            consume. Existen dos modalidades cuando se trata de gestionar esta energía “sobrante” de la
+                            producida por la instalación fotovoltaica: compensación o venta.</p>
+                        <ol>
+                            <li>Compensación – Consiste en recibir un descuento equivalente a los excedentes a la hora
+                                de pagar la factura. [Esta es la más frecuente y utilizada en instalaciones
+                                residenciales]
+                            </li>
+                            <li>Venta – Se requiere al cliente final estar acogido a la modalidad de suministro con
+                                autoconsumo con excedentes no acogida a compensación, y se le aplicarán las mismas
+                                normas que a cualquier planta de producción de energía eléctrica. [Esta es la más
+                                recomendable en instalaciones industriales]
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        ¿Qué es una instalación aislada?
+                    </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                     data-bs-parent="#accordionFaqs">
+                    <div class="accordion-body">
+                        <p>La siguiente información ha sido obtenida del Ministerio para la Transición Ecológica y el
+                            Reto Demográfico: energia.gob.es</p>
+                        <p>Se valora como una instalación, según el artículo 3.d) del Real Decreto 244/2019, de 5 de
+                            abril, a: </p>
+                        <blockquote>
+                            <p>“<em>aquella en la que no existe en ningún momento capacidad física de conexión eléctrica
+                                con la red de transporte o distribución ni directa ni indirectamente a través de una
+                                instalación propia o ajena. Las instalaciones desconectadas de la red mediante
+                                dispositivos interruptores o equivalentes no se considerarán aisladas a los efectos de
+                                la aplicación de este real decreto</em>”.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        ¿Qué es un mecanismo de compensación simplificada?
+                    </button>
+                </h2>
+                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                     data-bs-parent="#accordionFaqs">
+                    <div class="accordion-body">
+                        <p>La siguiente información ha sido obtenida del Ministerio para la Transición Ecológica y el
+                            Reto Demográfico: energia.gob.es</p>
+                        <p> En el régimen económico previsto, en la modalidad de suministro con autoconsumo con
+                            excedentes, el productor podrá vender la energía excedentaria o acogerse al mecanismo de
+                            compensación simplificado.</p>
+                        <p>Este último es un mecanismo diseñado para que los pequeños consumidores renovables de hasta
+                            100 kW puedan compensar en su factura la energía consumida a través de la red con la energía
+                            excedentaria que en un momento determinado no consumen. Este mecanismo permite el consumo
+                            diferido a lo largo del periodo de facturación de la energía generada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                        Requisitos para poder atenerse al mecanismo de compensación simplificada
+                    </button>
+                </h2>
+                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                     data-bs-parent="#accordionFaqs">
+                    <div class="accordion-body">
+                        <p>La siguiente información ha sido obtenida del Ministerio para la Transición Ecológica y el
+                            Reto Demográfico: energia.gob.es Podrán acogerse al mecanismo de compensación simplificado
+                            aquellos consumidores que:</p>
+                        <ul>
+                            <li>Estén asociados a instalaciones de producción cuya potencia no sea superior a 100 kW.
+                            </li>
+                            <li>La generación sea de origen renovable.</li>
+                            <li>Las plantas de producción no tengan otorgado un régimen retributivo adicional o
+                                específico.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container py-3">
+        <div class="row align-items-center text-center">
+            <div class="col-12 col-md-4">
+                <a href="https://luzmasolar.com/">
+                    <img class="img-fluid logo" src="img/color-logo.png">
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li>ventas1@luzmasolar.com</li>
+                    <li>+34 868 680 622 / +34 601 640 836</li>
+                    <li>Calle las Naves 4, Aljucer, 30152 , Murcia</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li><a href="">Aviso Legal</a></li>
+                    <li><a href="">Política de privacidad</a></li>
+                    <li><a href="">Política de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

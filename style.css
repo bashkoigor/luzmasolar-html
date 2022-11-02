@@ -18,14 +18,33 @@
 .mobile-menu .accordion-button {background: #0E3A5C; color: white;}
 .mobile-menu .accordion-body {padding: 0px; background: #0E3A5C;}
 .mobile-menu .accordion-item  { border: none;}
-.mobile-menu .accordion-button:focus {box-shadow: none; border-color: rgba(0,0,0,.125);}
+.accordion-button:focus {box-shadow: none; border-color: rgba(0,0,0,.125);}
 .mobile-menu .single {padding: 12px 20px; text-decoration: none; color: white; display: block;}
 .mobile-menu .accordion-button:not(.collapsed) {background: #0E3A5C;}
 .mobile-menu .accordion-button:not(.collapsed)::after {color: white;}
 .mobile-menu .accordion-collapse {background: #0E3A5C;}
 .mobile-menu.offcanvas.offcanvas-top {height: 75%; background: #0E3A5C;}
 .mobile-menu .close, .title  {color: white; font-size: 20px;}
-.accordion-button.collapsed::after, .accordion-button:not(.collapsed)::after {background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");}
+.mobile-menu .accordion-button.collapsed::after, .mobile-menu .accordion-button:not(.collapsed)::after {background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");}
+.faqs .accordion-item {
+    border: none;
+    margin: 5px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+.faqs .accordion-button:not(.collapsed) {
+    color: #FF5500;
+    box-shadow: none;
+}
+.faqs .accordion-button {
+    color: #0e3a5c;
+    background-color: transparent;
+    font-weight: 500;
+}
+.faqs .accordion-body {
+    color: #0e3a5c;
+    padding: 20px;
+    font-size: 16px;
+}
 .top-block {
     background-color: transparent;
     background-image: linear-gradient(130deg, #0E3A5C 0%, rgba(14, 58, 92, 0.64) 89%);
@@ -133,7 +152,8 @@ footer ul li:not(:last-child) { margin-bottom: 10px; }
 .divider-wrapper i {color: #FF5500; font-size: 30px;}
 .divider-wrapper span {display: inline-block; vertical-align: middle;}
 .divider-wrapper .outer-line {width: 40%; border-bottom: 1px solid #FF5500;}
-
+.orange {color: #ff5500;}
+.blue {color: #0E3A5C;}
 .nuestro-equipo .middle-block .title {color: #ff5500;}
 .nuestro-equipo .text-container {
     border-radius: 10px 10px 10px 50px;
@@ -156,6 +176,12 @@ footer ul li:not(:last-child) { margin-bottom: 10px; }
 .team .carousel__slide {
     width: 25%;
     padding: 10px;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
 }
 
 @media (max-width: 768px) {
