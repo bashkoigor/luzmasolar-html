@@ -103,6 +103,7 @@
 .products .item img {max-width: 100%; height: auto;}
 .products .column {margin-bottom: 25px;}
 .block-a {background: #0E3A5C; color: white; padding: 14% 14% 14% 14%; text-align: center; border-radius: 10px 10px 10px 50px;}
+
 .bottom-block {
     background-color: transparent;
     background-image: linear-gradient(130deg, #0E3A5C 0%, rgba(14, 58, 92, 0.64) 89%);
@@ -122,11 +123,11 @@ footer ul li:not(:last-child) { margin-bottom: 10px; }
 .text-block h1 {color: #FF5500}
 .text-block p {font-size: 25px; color: #0E3A5C;}
 .h-500 {height: 500px;}
-.middle-block .title {color: #0E3A5C; text-align: center; font-size: 30px; padding: 80px 0;}
+.middle-block .title {text-align: center; font-size: 30px; padding: 80px 0;}
 .items .item p {color: #FF5500; font-size: 19px; margin: 30px 0;}
 .items .item  {margin-bottom: 70px;}
-.blue {color: #0E3A5C;}
-
+.contacts .items .item p {color: #0E3A5C;}
+.contacts .block-a.padding {padding: 5% 5% 5% 5%;}
 .video {
     position: relative;
     padding-bottom: 40%;
