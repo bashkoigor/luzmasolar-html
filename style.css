@@ -194,14 +194,38 @@ blockquote {
 }
 .blog .card .small {font-size: 12px;}
 .main p, li, h4, h5 {color: #0E3A5C;}
-.main .top-block p, .main .bottom-block p, .main .bottom-block h5 {color: white;}
+.main .top-block p, .main .bottom-block p, .main .bottom-block h5, .main .block-a p {color: white;}
 a {color: #ff5500; text-decoration: none;}
+.relative {position: relative;}
+.block-c {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.block-c .background {background: #6232329C;}
+.block-c, .block-c p {color: white;}
+.parallax {
+    /* The image used */
+    background-image: url("img/parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media (max-width: 768px) {
     .team .carousel__slide {
         width: 100%;
     }
 }
 @media (max-width: 576px) {
+    .block-c {top: 33%;}
     .middle-block .text-wrapper {padding: 50px 0 20px; text-align: center;}
     .bottom-block {height: 590px;}
     .bottom-block .text-wrapper {margin-top: 120px;}
