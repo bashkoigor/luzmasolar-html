@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5177f8d642.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+</head>
+<body>
+<header>
+    <div class="header py-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-4 d-block d-lg-none mobile">
+                    <i aria-hidden="true" class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"></i>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="https://luzmasolar.com/">
+                        <img class="img-fluid" src="img/logo.png">
+                    </a>
+                </div>
+                <div class="col-lg-10 d-none d-lg-block">
+                    <ul class="nav nav-pills justify-content-end">
+                        <li><a href="#">INICIO</a></li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">NOSOTROS</a>
+                            <ul class="dropdown-menu shadow py-3" aria-labelledby="navbarDropdown">
+                                <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                                <li><a href="nuestro-equipo.html">Nuestro equipo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="te-interesa-saber.html">Te interesa saber…</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                        <li><i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i></li>
+                    </ul>
+                </div>
+                <div class="col-4 d-block d-lg-none d-flex justify-content-end mobile">
+                    <i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top mobile-menu" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="title" id="offcanvasMenuLabel">Menú</h5>
+            <i class="fa-solid fa-xmark close" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionRight">
+                <a href="" class="single">Inicio</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRight1" aria-expanded="false" aria-controls="collapseRight1">
+                            Nosotros
+                        </button>
+                    </h2>
+                    <div id="collapseRight1" class="accordion-collapse collapse" aria-labelledby="collapseRight1" data-bs-parent="#accordionRight" style="">
+                        <div class="accordion-body">
+                            <ul>
+                                <li class="item">
+                                    <a href="">¿Quiénes somos?</a>
+                                </li>
+                                <li class="item">
+                                    <a href="">Nuestro equipo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="single">Te interesa saber…</a>
+                <a href="" class="single">Productos</a>
+                <a href="" class="single">Blog</a>
+                <a href="" class="single">contacto</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasSearchLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasSearchLabel">Buscar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="container">
+            <div class="offcanvas-body">
+                <form class="row" method="get" action="/search">
+                    <div class="input-group mb-3">
+                        <input type="text" name="search" class="form-control" placeholder="Ingrese su solicitud">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-search">Encontrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="main">
+    <div class="middle-block">
+        <div class="container">
+            <h1 class="orange mb-4">Política de Cookies</h1>
+            <p>Luzma Solar, podrá utilizar cookies durante la prestación de servicios del sitio web <a href="">luzmasolar.com</a>, y la navegación en el mismo.</p>
+            <p>Una cookie es un fichero que se descarga en su ordenador o dispositivo al acceder a determinadas páginas web o aplicaciones. Las cookies permiten a una página web o una aplicación, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario de su equipo, almacenar y recuperar la información que se inserta en formularios de aplicación, y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario.</p>
+            <p>Este sitio web puede utilizar cookies propias y de terceros con las finalidades de permitir únicamente la comunicación entre el equipo del usuario y la red, que nos permiten realizar análisis de uso y medición de nuestra web para mejorar nuestros servicios, así como para estrictamente prestar un servicio expresamente solicitado por el usuario:</p>
+            <ul>
+                <li><strong>Cookies propias:</strong> son aquellas que se envían al equipo terminal del usuario desde un equipo o dominio gestionado por el propio responsable del sitio web y la aplicación, y desde el que se presta el servicio solicitado por el usuario.</li>
+                <li><strong>Cookies de terceros:</strong> son aquellas que se envían al equipo terminal del usuario desde un equipo o dominio que no es gestionado por el propio responsable del sitio web y la aplicación, sino por otra entidad que trata los datos obtenidos a través de las cookies.</li>
+                <li><strong>Cookies de sesión:</strong> son un tipo de cookies diseñadas para recabar y almacenar datos mientras el usuario accede al sitio web o la aplicación.</li>
+            </ul>
+            <p>Las herramientas que utilizamos en el sitio web para obtener y analizar la información de la navegación son:</p>
+            <ul>
+                <li><strong>Google Analytics</strong> (https://www.google.es/intl/es/analytics/ <a href="https://www.google.com/intl/es/policies/privacy/" target="_blank" rel="noreferrer noopener">https://www.google.com/intl/es/policies/privacy/</a>)</li>
+            </ul>
+            <p>Estas herramientas son desarrolladas por Google Inc. y nos prestan el servicio de análisis de la audiencia del sitio web. Esta empresa puede utilizar estos datos para mejorar sus propios servicios y para ofrecer servicios a otras empresas. Puedes conocer esos otros usos desde los enlaces indicados.</p>
+            <p>Estas herramientas no obtienen datos de los nombres o apellidos de los usuarios ni de la dirección postal desde donde se conectan. La información que obtienen está relacionada por ejemplo con el número de páginas vistas, la hora en que se producen las visitas, el idioma, las keywords, la red social en la que se publican nuestras noticias, la ciudad a la que está asignada la dirección IP desde la que acceden los usuarios, el número de usuarios que nos visitan, la frecuencia y reincidencia de las visitas, el tiempo de visita, el navegador que usan, el operador o tipo de terminal desde el que se realiza la visita. No obstante, puedes conocer más ampliamente el uso de estas herramientas accediendo a las webs señaladas.</p>
+            <p>Por nuestra parte, esta información la podemos usar para mejorar el sitio web, detectar nuevas necesidades y valorar las mejoras a introducir con la finalidad de prestar un mejor servicio a los usuarios que nos visitan.</p>
+            <p>Para permitir, conocer, bloquear o eliminar las cookies instaladas en tu equipo puedes hacerlo mediante la configuración de las opciones del navegador instalado en tu ordenador.</p>
+            <p>Por ejemplo, puedes encontrar información sobre cómo gestionar y protege tu privacidad en los siguientes navegadores:</p>
+            <ul>
+                <li><strong>Firefox </strong>( <a href="https://support.mozilla.org/es/products/firefox/protect-your-privacy" target="_blank" rel="noreferrer noopener">https://support.mozilla.org/es/products/firefox/protect-your-privacy</a> )</li>
+                <li><strong>Chrome</strong> ( <a href="https://www.google.es/chrome/browser/privacy/" target="_blank" rel="noreferrer noopener">https://www.google.es/chrome/browser/privacy/</a> )</li>
+                <li><strong>Explorer </strong>(<a href="https://support.microsoft.com/es-es/products/internet-explorer" target="_blank" rel="noreferrer noopener">https://support.microsoft.com/es-es/products/internet-explorer )</a></li>
+                <li><strong>Edge </strong>( <a href="https://support.microsoft.com/es-es/products/internet-explorer" target="_blank" rel="noreferrer noopener">https://support.microsoft.com/es-es/products/internet-explorer</a> )</li>
+                <li><strong>Safari </strong>( <a href="https://support.apple.com/es-es" target="_blank" rel="noreferrer noopener">https://support.apple.com/es-es</a> )</li>
+                <li><strong>Opera</strong> ( <a href="http://www.opera.com/es/help" target="_blank" rel="noreferrer noopener">http://www.opera.com/es/help</a> )</li>
+            </ul>
+            <p>Le informamos, no obstante, de la posibilidad de que la desactivación de alguna cookie impida o dificulte la navegación o la prestación de los servicios ofrecidos en este sitio web. Por último, le indicamos que la última revisión de este texto se ha realizado en abril de 2020, por lo que pueden existir variaciones de cookies usadas hasta la próxima revisión del texto.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container py-3">
+        <div class="row align-items-center text-center">
+            <div class="col-12 col-md-4">
+                <a href="https://luzmasolar.com/">
+                    <img class="img-fluid logo" src="img/color-logo.png">
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li>ventas1@luzmasolar.com</li>
+                    <li>+34 868 680 622  / +34  601 640 836 </li>
+                    <li>Calle las Naves 4, Aljucer, 30152 , Murcia</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li><a href="">Aviso Legal</a></li>
+                    <li><a href="politica-privacidad.html">Política de privacidad</a></li>
+                    <li><a href="">Política de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>

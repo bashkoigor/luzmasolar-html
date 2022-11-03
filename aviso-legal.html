@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5177f8d642.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+</head>
+<body>
+<header>
+    <div class="header py-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-4 d-block d-lg-none mobile">
+                    <i aria-hidden="true" class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"></i>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="https://luzmasolar.com/">
+                        <img class="img-fluid" src="img/logo.png">
+                    </a>
+                </div>
+                <div class="col-lg-10 d-none d-lg-block">
+                    <ul class="nav nav-pills justify-content-end">
+                        <li><a href="#">INICIO</a></li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">NOSOTROS</a>
+                            <ul class="dropdown-menu shadow py-3" aria-labelledby="navbarDropdown">
+                                <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                                <li><a href="nuestro-equipo.html">Nuestro equipo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="te-interesa-saber.html">Te interesa saber…</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                        <li><i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i></li>
+                    </ul>
+                </div>
+                <div class="col-4 d-block d-lg-none d-flex justify-content-end mobile">
+                    <i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top mobile-menu" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="title" id="offcanvasMenuLabel">Menú</h5>
+            <i class="fa-solid fa-xmark close" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionRight">
+                <a href="" class="single">Inicio</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRight1" aria-expanded="false" aria-controls="collapseRight1">
+                            Nosotros
+                        </button>
+                    </h2>
+                    <div id="collapseRight1" class="accordion-collapse collapse" aria-labelledby="collapseRight1" data-bs-parent="#accordionRight" style="">
+                        <div class="accordion-body">
+                            <ul>
+                                <li class="item">
+                                    <a href="">¿Quiénes somos?</a>
+                                </li>
+                                <li class="item">
+                                    <a href="">Nuestro equipo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="single">Te interesa saber…</a>
+                <a href="" class="single">Productos</a>
+                <a href="" class="single">Blog</a>
+                <a href="" class="single">contacto</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasSearchLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasSearchLabel">Buscar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="container">
+            <div class="offcanvas-body">
+                <form class="row" method="get" action="/search">
+                    <div class="input-group mb-3">
+                        <input type="text" name="search" class="form-control" placeholder="Ingrese su solicitud">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-search">Encontrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="main">
+    <div class="middle-block">
+        <div class="container">
+            <h1 class="orange mb-4">Aviso legal</h1>
+            <p>Propiedad del sitio web: La utilización de este sitio web así como de cualquiera de sus servicios implica la lectura, comprensión y aceptación del presente aviso legal por parte del usuario. En cumplimiento con lo establecido en la Ley 34/2002 de 11 de Julio, de Servicios de la Sociedad de la Información y el Comercio Electrónico (LSSICE), se informa de los siguientes aspectos legales:</p>
+            <p>Responsable del sitio web: LUZMA SOLAR, S.L.</p>
+            <p>Dirección: Calle de las Naves, s/n, Km 1.5 Crta. El Palmar 30011 Murcia</p>
+            <p>Email de contacto: info@luzmasolar.com</p>
+            <p>Teléfono: 868 680 622</p>
+            <p>Datos fiscales: B05554357</p>
+            <p><b>Condiciones previas:</b> Las presentes condiciones legales regulan el uso legal permitido de este sitio web, cuyo responsable legal es LUZMA SOLAR, SL. Estas condiciones generales regulan el acceso y utilización que el titular de la web pone a disposición de los usuarios de Internet. El acceso a la misma implica su aceptación sin reservas. Se entiende por usuario la persona que acceda, navegue, utilice o participe en los servicios y/o actividades de la Web. El mero uso de la web, así como solicitar información o emitir un pedido, supone la aceptación plena de las presentes condiciones.</p>
+            <p><b>Uso del sitio web:</b> El usuario se obliga a usar el sitio web, los servicios y los contenidos del mismo, de conformidad con la Ley, el presente Aviso Legal, las buenas costumbres y el orden público. Del mismo modo, el usuario se obliga a usarlos de forma diligente, correcta y lícita y no contrarios al contenido del presente Aviso Legal. En particular, se compromete a abstenerse de suprimir, eludir o manipular el “copyright” y demás datos identificativos de los derechos de sus titulares incorporados a los contenidos, así como los dispositivos técnicos de protección, o cualesquiera mecanismos de información que pudieren contener. Queda expresamente prohibido realizar acciones lesivas a los intereses o derechos de terceros, o que de cualquier forma pueda dañar, inutilizar o deteriorar la Web o sus servicios o impedir un normal disfrute de la Web por otros usuarios. El usuario se compromete a no obstaculizar el acceso a otros usuarios al servicio de acceso mediante el consumo masivo de los recursos informáticos a través de los cuales LUZMA SOLAR S.L. presta el servicio, así como realizar acciones que dañen, interrumpan o generen errores en dichos sistemas o servicios. El usuario se compromete a no introducir programas, virus, macros, applets, controles ActiveX o cualquier otro dispositivo lógico o secuencia de caracteres que causen o sean susceptibles de causar cualquier tipo de alteración en los sistemas informáticos de LUZMA SOLAR, SL o de terceros. El usuario se compromete a no obtener informaciones, mensajes, gráficos, dibujos, archivos de sonido y/o imagen, fotografías, grabaciones, software y en general, cualquier clase de material accesible a través de la Web o de los servicios ofrecidos en el mismo. Se entiende que el acceso o utilización de la Web por parte del usuario implica la aceptación por éste del Aviso Legal que LUZMA SOLAR, SL tenga publicadas en el momento del acceso, las cuales estarán siempre disponibles para los usuarios. El usuario se compromete a hacer un uso adecuado de los contenidos y servicios (como por ejemplo los comentarios, foros de opinión o páginas abiertas al lector) que LUZMA SOLAR, SL ofrece en su sede Web y a no emplearlos para incurrir en actividades ilícitas o contrarias a la buena fe y al ordenamiento legal; difundir contenidos o propaganda de carácter racista, xenófobo, pornográfico-ilegal, de apología del terrorismo o atentatorio contra los derechos humanos.</p>
+            <p><b>Acceso a la web y contraseñas:</b> Algunos de los servicios y contenidos ofrecidos LUZMA SOLAR, SL pueden encontrarse sujetos a contratación previa del servicio y al pago de una cantidad de dinero en la forma que se determine en las Condiciones Generales de Contratación, en cuyo caso se pondrán a su disposición de forma clara. El acceso y navegación en esta web no precisa registro por parte del usuario, por lo que no se recaban datos personales del mismo, a excepción de los especificados en la política de cookies o que el usuario los suministre a través de algún formulario de contacto o similar de esta web y en cuyo caso, los datos se tratarán y almacenarán siguiendo las condiciones especificadas en la política de cookies o privacidad, según corresponda.</p>
+            <p><b>Menores de edad:</b> Queda prohibida la contratación de productos o servicios a través de la Web por parte de menores de edad, debiendo obtener debidamente y con anterioridad, el consentimiento de sus padres, tutores o representantes legales, los cuales serán considerados como responsables de los actos que lleven a cabo los menores a su cargo.</p>
+            <p><b>Modificación de las condiciones del Aviso Legal:</b> LUZMA SOLAR, SL se reserva expresamente el derecho a modificar el presente Aviso Legal. El usuario reconoce y acepta que es su responsabilidad revisar la Web y el presente Aviso Legal.</p>
+            <p><b>Limitación de garantías y responsabilidades:</b> LUZMA SOLAR, SL se compromete a realizar sus mejores esfuerzos para evitar cualquier error en los contenidos que pudieran aparecer en la Web. En cualquier caso, LUZMA SOLAR, SL estará exenta de cualquier responsabilidad derivada de eventuales errores en los contenidos que pudieran aparecer en la Web, siempre que no le sean imputables. LUZMA SOLAR, SL no garantiza que la Web y el servidor estén libres de virus y no se hace responsable de los posibles daños o perjuicios que se puedan derivar de interferencias, omisiones, interrupciones, virus informáticos, averías telefónicas o desconexiones en el funcionamiento operativo de este sistema electrónico, motivado por causas ajenas a LUZMA SOLAR, SL, de retrasos o bloqueos en el uso de este sistema electrónico causados por deficiencias de líneas telefónicas o sobrecargas en el sistema de Internet o en otros sistemas electrónicos, así como también de daños que puedan ser causados por terceras personas mediante intromisiones ilegítimas fuera del control de LUZMA SOLAR, SL.</p>
+            <p><b>Propiedad intelectual e industrial:</b> Todos los nombres comerciales, marcas o signos distintos de cualquier clase contenidos en las páginas Web de la empresa son propiedad de sus dueños y están protegidos por ley.</p>
+            <p>Todos los derechos de Propiedad Industrial e Intelectual de la Web https://luzmasolar.com y de sus contenidos (textos, imágenes, sonidos, audio, vídeo, diseños, creatividades, software) pertenecen, como autor de obra colectiva o como cesionaria, a LUZMA SOLAR, SL o, en su caso, a terceras personas. Quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página Web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización de LUZMA SOLAR, SL. El usuario se compromete a respetar los derechos de Propiedad Industrial e Intelectual titularidad de LUZMA SOLAR, SL y de terceros. A los efectos de lo previsto en el artículo 32.1 del Texto Refundido de la Ley de Propiedad Intelectual, LUZMA SOLAR, SL se opone expresamente a la utilización de cualesquiera contenidos de sitio Web con la finalidad de realizar reseñas en otros medios telemáticos o en formato papel con fines comerciales sin contar con la previa autorización de LUZMA SOLAR, SL El usuario puede visualizar todos los elementos, imprimirlos, copiarlos y almacenarlos en el disco duro de su ordenador o en cualquier otro soporte físico siempre y cuando sea, única y exclusivamente, para su uso personal y privado, quedando, por tanto, terminantemente prohibida su utilización con fines comerciales, su distribución, así como su modificación, alteración o descompilación. LUZMA SOLAR, SL proporciona el acceso a todo tipo de informaciones, servicios, programas o datos en Internet que pueden pertenecer a terceras personas, en cuyo caso LUZMA SOLAR, SL no se hace responsable de dichos contenidos ni de cuantas reclamaciones puedan derivarse de la calidad, fiabilidad, exactitud o corrección de los mismos. Responsabilidad por enlaces El sitio web no dispone de enlaces o hipervínculos de terceros.</p>
+            <p><b>Protección de datos personales:</b> LUZMA SOLAR, SL adopta las medidas técnicas y organizativas necesarias para garantizar la protección de los datos de carácter personal y evitar su alteración, pérdida, tratamiento y/o acceso no autorizado, habida cuenta del estado de la técnica, la naturaleza de los datos almacenados y los riesgos a que están expuestos, todo ello, conforme a lo establecido por la legislación española de Protección de Datos de Carácter Personal. El usuario podrá remitir a LUZMA SOLAR, SL sus datos de carácter personal a través de los distintos formularios que a tal efecto aparecen en la Web. Dichos formularios incorporan un texto legal en materia de protección de datos personales que da cumplimiento a las exigencias establecidas en la Ley Orgánica 3/2018, de Protección de Datos de Carácter Personal, y en su Reglamento General de Protección de Datos (RGPD) (Reglamento UE 2016/679). Rogamos lea atentamente los textos legales antes de facilitar sus datos de carácter personal.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container py-3">
+        <div class="row align-items-center text-center">
+            <div class="col-12 col-md-4">
+                <a href="https://luzmasolar.com/">
+                    <img class="img-fluid logo" src="img/color-logo.png">
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li>ventas1@luzmasolar.com</li>
+                    <li>+34 868 680 622  / +34  601 640 836 </li>
+                    <li>Calle las Naves 4, Aljucer, 30152 , Murcia</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li><a href="">Aviso Legal</a></li>
+                    <li><a href="politica-privacidad.html">Política de privacidad</a></li>
+                    <li><a href="">Política de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>

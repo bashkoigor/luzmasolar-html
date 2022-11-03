@@ -194,6 +194,8 @@ blockquote {
 }
 .blog .card .small {font-size: 12px;}
 .main p, li, h4, h5 {color: #0E3A5C;}
+.main .top-block p, .main .bottom-block p, .main .bottom-block h5 {color: white;}
+a {color: #ff5500; text-decoration: none;}
 @media (max-width: 768px) {
     .team .carousel__slide {
         width: 100%;
