@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5177f8d642.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+</head>
+<body>
+<header>
+    <div class="header py-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-4 d-block d-lg-none mobile">
+                    <i aria-hidden="true" class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"></i>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <a href="https://luzmasolar.com/">
+                        <img class="img-fluid" src="img/logo.png">
+                    </a>
+                </div>
+                <div class="col-lg-10 d-none d-lg-block">
+                    <ul class="nav nav-pills justify-content-end">
+                        <li><a href="#">INICIO</a></li>
+                        <li>
+                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">NOSOTROS</a>
+                            <ul class="dropdown-menu shadow py-3" aria-labelledby="navbarDropdown">
+                                <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                                <li><a href="nuestro-equipo.html">Nuestro equipo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="te-interesa-saber.html">Te interesa saber…</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                        <li><i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i></li>
+                    </ul>
+                </div>
+                <div class="col-4 d-block d-lg-none d-flex justify-content-end mobile">
+                    <i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top mobile-menu" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="title" id="offcanvasMenuLabel">Menú</h5>
+            <i class="fa-solid fa-xmark close" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionRight">
+                <a href="" class="single">Inicio</a>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRight1" aria-expanded="false" aria-controls="collapseRight1">
+                            Nosotros
+                        </button>
+                    </h2>
+                    <div id="collapseRight1" class="accordion-collapse collapse" aria-labelledby="collapseRight1" data-bs-parent="#accordionRight" style="">
+                        <div class="accordion-body">
+                            <ul>
+                                <li class="item">
+                                    <a href="">¿Quiénes somos?</a>
+                                </li>
+                                <li class="item">
+                                    <a href="">Nuestro equipo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="single">Te interesa saber…</a>
+                <a href="" class="single">Productos</a>
+                <a href="" class="single">Blog</a>
+                <a href="" class="single">contacto</a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasSearchLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasSearchLabel">Buscar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="container">
+            <div class="offcanvas-body">
+                <form class="row" method="get" action="/search">
+                    <div class="input-group mb-3">
+                        <input type="text" name="search" class="form-control" placeholder="Ingrese su solicitud">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-search">Encontrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="main">
+    <div class="middle-block">
+        <div class="container">
+            <h1 class="orange mb-4">Política de Privacidad</h1>
+            <p>La confidencialidad y la seguridad son valores primordiales de Luzma Solar S.L. y, en consecuencia, asumimos el compromiso de garantizar la privacidad del Usuario, de usted, en todo momento, y de no recabar información innecesaria.</p>
+            <p>A continuación, le proporcionamos toda la información necesaria sobre nuestra Política de Privacidad en relación con los datos personales que recabamos, explicándole:</p>
+            <h1 class="blue my-4">Quién es el responsable del tratamiento de sus datos</h1>
+            <ol>
+                <li>Quién es el responsable del tratamiento de sus datos.</li>
+                <li>Para qué finalidades recabamos los datos que le solicitamos.</li>
+                <li>Cuál es la legitimación para su tratamiento.</li>
+                <li>Durante cuánto tiempo los conservamos.</li>
+                <li>A qué destinatarios se comunican sus datos.</li>
+                <li>Cuáles son sus derechos.</li>
+            </ol>
+            <p>1. LUZMA SOLAR, S.L. (B05554357)</p>
+            <p>Calle de las Naves, s/n, Km 1.5 Crta. El Palmar 30011 Murcia</p>
+            <p>info@luzmasolar.com</p>
+            <p>2. Finalidades, legitimación y conservación de los tratamientos de los datos enviados a través de:</p>
+            <h4>FORMULARIO DE CONTACTO.</h4>
+            <p>Finalidad: Contestar a sus solicitudes de información, atender sus peticiones y responder sus consultas o dudas. Algunas secciones de nuestra web precisan de la cumplimentación de formulario/s de registro y es obligatorio para acceder y disfrutar de determinados servicios ofrecidos en la Web o recibir la información solicitada.</p>
+            <p>Legitimación: El consentimiento del usuario al solicitarnos información a través de la dirección de correo electrónico.</p>
+            <p>Conservación: Hasta una vez contestada su petición por correo electrónico, si no ha generado un nuevo tratamiento convirtiéndose en cliente o futuro interesado de nuestros servicios.</p>
+            <h4>ENVÍO DEL CURRÍCULUM VITAE</h4>
+            <p>Finalidad: Disponer de su currículum para participar en nuestros procesos de selección de personal.</p>
+            <p>Legitimación: El consentimiento del usuario al remitirnos su información personal y currículum para nuestros procesos de selección de personal.</p>
+            <p>Conservación: Durante el desarrollo de los procesos de selección de personal abiertos y durante 2 años para futuros procesos.</p>
+            <p>Obligación de facilitarnos sus datos personales y consecuencias de no hacerlo.</p>
+            <p>El suministro de datos personales requiere una edad mínima de 18 años.</p>
+            <p>Los datos personales solicitados o facilitados son necesarios para gestionar sus solicitudes y/o prestarle los servicios o bienes que pueda contratar o adquirir, por lo que, si no nos los facilita, no podremos atenderle correctamente ni prestarle el servicio que ha solicitado.</p>
+            <h5>Destinatarios de sus datos</h5>
+            <p>Sus datos son confidenciales y no se cederán a terceros, salvo que usted decida concedernos el permiso de cederlos para su propio beneficio decidiendo usted el destinatario o los destinatarios de los mismos de manera expresa mediante escrito o mediante llamada telefónica.</p>
+            <h5>Derechos en relación con sus datos personales</h5>
+            <p>Cualquier persona puede retirar su consentimiento en cualquier momento, cuando el mismo se haya otorgado para el tratamiento de sus datos. En caso de retirada de este consentimiento no disfrutará de acceso como cliente a nuestra web, no se le enviarán comunicaciones electrónicas ni disfrutará de las promociones destinadas a clientes.</p>
+            <p>Igualmente, puede ejercer los siguientes derechos:</p>
+            <ul>
+                <li>Solicitar el acceso a sus datos personales o su rectificación cuando sean inexactos.</li>
+                <li>Solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios para los fines para los que fueron recogidos, bien porque ya no ejerce profesión relacionada con nuestro sector o porque no quiere mantener con nosotros relación comercial alguna.</li>
+                <li>Solicitar la limitación de su tratamiento en determinadas circunstancias.</li>
+                <li>Solicitar la oposición al tratamiento de sus datos por motivos relacionados con su situación particular.</li>
+                <li>Solicitar la portabilidad de los datos en los casos previstos en la normativa.</li>
+                <li>Otros derechos reconocidos en las normativas aplicables.</li>
+            </ul>
+            <p>Dónde y cómo solicitar sus Derechos: Mediante un escrito dirigido al responsable a su dirección postal (indicada en el apartado 1) o bien mediante escrito electrónico a ventas1@luzmasolar.com indicando en el asunto del mensaje “Datos Personales”, especificando en el texto del mensaje el derecho que se quiere ejercer y respecto a qué datos personales.</p>
+            <p>En caso de divergencias con la empresa en relación con el tratamiento de sus datos, puede presentar una reclamación ante la Autoridad de Protección de Datos (www.agpd.es).</p>
+            <h5>Seguridad de sus datos personales</h5>
+            <p>Con el objetivo de salvaguardar la seguridad de sus datos personales, le informamos que hemos adoptado todas las medidas de índole técnica y organizativa necesarias para garantizar la seguridad de los datos personales suministrados de su alteración, pérdida, y tratamientos o accesos no autorizados.</p>
+            <h5>Actualización de sus datos</h5>
+            <p>Es importante que para que podamos mantener sus datos personales actualizados, nos informe siempre que haya habido alguna modificación en ellos, en caso contrario, no respondemos de la veracidad de los mismos.</p>
+            <p>La presente Política de Privacidad puede ser modificada para adaptarlas a los cambios que se produzca en nuestra web, así como modificaciones legislativas o jurisprudenciales sobre datos personales que vayan apareciendo, por lo que exige su lectura, cada vez que nos facilite sus datos a través de esta Web.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container py-3">
+        <div class="row align-items-center text-center">
+            <div class="col-12 col-md-4">
+                <a href="https://luzmasolar.com/">
+                    <img class="img-fluid logo" src="img/color-logo.png">
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li>ventas1@luzmasolar.com</li>
+                    <li>+34 868 680 622  / +34  601 640 836 </li>
+                    <li>Calle las Naves 4, Aljucer, 30152 , Murcia</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>
+                    <li><a href="">Aviso Legal</a></li>
+                    <li><a href="politica-privacidad.html">Política de privacidad</a></li>
+                    <li><a href="">Política de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
