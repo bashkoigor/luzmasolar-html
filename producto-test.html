@@ -34,9 +34,9 @@
                             </ul>
                         </li>
                         <li><a href="te-interesa-saber.html">Te interesa saber…</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contacto.html">contacto</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">contacto</a></li>
                         <li><i class="fas fa-search" aria-hidden="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"></i></li>
                     </ul>
                 </div>
@@ -98,106 +98,96 @@
     </div>
 </header>
 <div class="main">
-    <div class="top-block">
-        <div class="block-shape block-shape-bottom" data-negative="false">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                <path class="block-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
-            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
-            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
-            </svg>
-        </div>
+    <div class="middle-block mt-5">
         <div class="container">
-            <div class="row pt-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Productos</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Inversores</li>
+                </ol>
+            </nav>
+            <h1 class="my-5 blue">INVERSORES</h1>
+            <div class="row product">
                 <div class="col-12 col-md-6">
-                    <div class="text-wrapper mt-0 mt-lg-5">
-                        <h3>Luzma Solar, desde 2005 en el sector de la energía renovable</h3>
-                        <p class="py-4">Conoce nuestros productos y únete al sector más puntero de la economía.</p>
-                        <a class="btn btn-primary" href="productos.html" role="button">VER MÁS</a>
+                    <div class="gallery">
+                        <div id="product-carousel" class="carousel">
+                            <div class="carousel__slide" data-src="img/1.jpg" data-fancybox="product-gallery">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide" data-src="img/1.jpg" data-fancybox="product-gallery">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide" data-src="img/1.jpg" data-fancybox="product-gallery">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide" data-src="img/1.jpg" data-fancybox="product-gallery">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide" data-src="img/1.jpg" data-fancybox="product-gallery">
+                                <img src="img/1.jpg" />
+                            </div>
+                        </div>
+                        <div id="product-thumb-carousel" class="carousel max-w-xl mx-auto">
+                            <div class="carousel__slide">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                                <img src="img/1.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                                <img src="img/1.jpg" />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="image-wrapper">
-                        <img src="img/Luzma-Solar-placas-y-agricultura.jpg" alt="" class="img-fluid img-style">
+                    <div class="description mb-5">
+                        <p>Huawei Smart Logger 3000 A01EU para hasta 80 inversores, sin</p>
+                        <p>MBUS | 2 años de garantía | compatible con 4G</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="middle-block">
-        <div class="container">
-            <div class="row block-height">
-                <div class="col-12 col-md-6 d-none d-md-block">
-                    <div class="image-wrapper">
-                        <img src="img/Instalacion-fotovoltaica.jpg" alt="" class="img-fluid img-style radius">
+                    <a class="btn btn-primary me-md-5 me-0 mb-3" href="quienes-somos.html" role="button">Descargar documentación</a>
+                    <a class="btn btn-primary mb-3" href="quienes-somos.html" role="button">Consultar precio</a>
+                    <div class="accordion my-4" id="accordionProduct">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProduct1" aria-expanded="false" aria-controls="collapseProduct1">
+                                    Características
+                                </button>
+                            </h2>
+                            <div id="collapseProduct1" class="accordion-collapse collapse show" aria-labelledby="collapseProduct1" data-bs-parent="#accordionProduct" style="">
+                                <div class="accordion-body">
+                                    <h3 class="blue">Huawei SmartLogger 3000 A01EU (4G)</h3>
+                                    <ul>
+                                        <li>Máx. no. de dispositivos manejables: 80</li>
+                                        <li>Dimensiones: 225 x 160 x 44 mm (sin orejas de montaje y antena)</li>
+                                        <li>Peso: 2kg</li>
+                                        <li>Grado de protección: IP20</li>
+                                        <li>Opciones de instalación: Montaje en pared, montaje en riel DIN, montaje de mesa</li>
+                                        <li>Smart 450W Optimizer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="text-wrapper mt-0 mt-lg-5">
-                        <h3>Compañía experta en el sector del autoconsumo fotovoltaico</h3>
-                        <h5 class="py-3">SOBRE NOSOTROS</h5>
-                        <p>Hacemos que los profesionales de la electricidad no pierdan el vagón de las renovables.</p>
-                        <p>Si eres profesional, te facilitamos entrar el sector más pujante de la economía.</p>
-                        <a class="btn btn-primary my-3" href="nosotros.html" role="button">Conocer MÁS</a>
-                    </div>
-                </div>
-                <div class="col-12 d-block d-md-none">
-                    <div class="image-wrapper">
-                        <img src="img/Instalacion-fotovoltaica.jpg" alt="" class="img-fluid img-style">
-                    </div>
-                </div>
-            </div>
-            <div class="row products">
-                <h1 class="my-5">NUESTROS PRODUCTOS</h1>
-                <div class="column col-md-4 col-12">
-                    <div class="item product-wrapper text-center">
-                        <h4 class="my-3">MÓDULOS FOTOVOLTAICOS</h4>
-                        <img src="img/p1.jpg" alt="">
-                        <div class="mt-4">
-                            <a href="">Saber más <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column col-md-4 col-12">
-                    <div class="item product-wrapper text-center">
-                        <h4 class="my-3">INVERSORES DE CONEXIÓN A RED</h4>
-                        <img src="img/p2.jpg" alt="">
-                        <a href="categoria-inversores.html" class="mt-4">Saber más <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="column col-md-4 col-12">
-                    <div class="item product-wrapper text-center">
-                        <h4 class="my-3">ESTRUCTURAS PARA MÓDULOS</h4>
-                        <img src="img/p3.png" alt="">
-                        <div class="mt-4">
-                            <a href="">Saber más <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column col-md-4 col-12">
-                    <div class="item product-wrapper text-center">
-                        <h4 class="my-3">KITS FOTOVOLTAICOS</h4>
-                        <img src="img/p4.jpg" alt="">
-                        <div class="mt-4">
-                            <a href="">Saber más <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column col-md-4 col-12">
-                    <div class="item product-wrapper text-center">
-                        <h4 class="my-3">OTROS PRODUCTOS</h4>
-                        <img src="img/p5.png" alt="">
-                        <div class="mt-4">
-                            <a href="">Saber más <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="block-a my-5">
+                    <div class="block-a my-4">
                         <h2>SOY INSTALADOR Y NECESITO MÁS INFORMACIÓN</h2>
                         <p class="my-5">Si eres instalador y quieres más información sobre nuestros productos, contacta con nosotros.</p>
                         <a class="btn btn-primary" href="contacto.html" role="button">Más información</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="block-b my-4">
+                        <h2>ENCUENTRA TU INSTALADOR</h2>
+                        <p class="my-5">Si eres un cliente y quieres más información sobre nuestros productos, contacta con nosotros.</p>
+                        <a class="btn btn-primary" href="contacto.html" role="button">Buscar instalador</a>
                     </div>
                 </div>
             </div>
@@ -254,9 +244,9 @@
             </div>
             <div class="col-12 col-md-4">
                 <ul>
-                    <li><a href="aviso-legal.html">Aviso Legal</a></li>
-                    <li><a href="politica-privacidad.html">Política de privacidad</a></li>
-                    <li><a href="politica-de-cookies.html">Política de cookies</a></li>
+                    <li><a href="">Aviso Legal</a></li>
+                    <li><a href="">Política de privacidad</a></li>
+                    <li><a href="">Política de cookies</a></li>
                 </ul>
             </div>
         </div>
